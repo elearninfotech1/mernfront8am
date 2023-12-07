@@ -1,0 +1,7 @@
+.header ul li a {
+    text-transform: uppercase;
+    color: #000 !important;
+    font-size: 0.89rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px;
+}
