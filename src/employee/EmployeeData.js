@@ -6,7 +6,7 @@ const EmployeeData = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:4000/employee")
+      .get("httphttps://mernback8am.onrender.com/employee")
       .then((res) => {
         setData(res.data);
       })
